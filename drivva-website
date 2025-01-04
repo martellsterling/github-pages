@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drivva - Luxury Car Rentals</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        header {
+            background-color: #0d1b2a;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            max-height: 60px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #e3b505;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #ffffff;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #e3b505;
+            color: #0d1b2a;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #c49a04;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .fleet, .testimonials {
+            background-color: #0d1b2a;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .car {
+            display: inline-block;
+            margin: 20px;
+            text-align: left;
+            max-width: 300px;
+        }
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #0d1b2a;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Drivva Logo" class="logo">
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#fleet">Fleet</a>
+            <a href="#experience">Customer Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h1>Drive Beyond Ordinary</h1>
+        <p>Experience the pinnacle of luxury with Drivva's premium car rentals.</p>
+        <button class="button">Book Now</button>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Drivva, your ultimate destination for luxury car rentals. With a meticulously curated fleet and exceptional service, we redefine the driving experience. Whether it’s for business, leisure, or a special occasion, Drivva ensures every journey is unforgettable.</p>
+    </section>
+
+    <section id="fleet" class="fleet">
+        <h2>Our Fleet</h2>
+        <div class="car">
+            <img src="audi-rs5.jpg" alt="Audi RS5">
+            <h3>Audi RS5</h3>
+            <p>Dynamic performance and timeless design come together in the Audi RS5. Perfect for those who crave power and elegance.</p>
+        </div>
+        <div class="car">
+            <img src="mercedes-g63.jpg" alt="Mercedes G63">
+            <h3>Mercedes G63</h3>
+            <p>Unmatched luxury and off-road capabilities make the Mercedes G63 a favorite for any terrain.</p>
+        </div>
+        <div class="car">
+            <img src="mercedes-a45s.jpg" alt="Mercedes A45s">
+            <h3>Mercedes A45s</h3>
+            <p>Sporty, agile, and packed with technology, the Mercedes A45s redefines the hot hatch segment.</p>
+        </div>
+        <div class="car">
+            <img src="audi-q8.jpg" alt="Audi Q8">
+            <h3>Audi Q8</h3>
+            <p>A perfect blend of luxury, technology, and versatility, the Audi Q8 sets new standards in SUV design.</p>
+        </div>
+        <div class="car">
+            <img src="vw-golf-r.jpg" alt="Volkswagen Golf R">
+            <h3>Volkswagen Golf R</h3>
+            <p>Performance meets practicality in the Golf R, delivering thrilling drives for every journey.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Customer Experience</h2>
+        <p>At Drivva, we ensure every customer enjoys a seamless and luxurious experience. From easy booking to tailored service, we exceed expectations at every step.</p>
+        <p>"Drivva made my anniversary trip unforgettable. The car was immaculate, and the service was unmatched!" - Emily R.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Drivva. All rights reserved.</p>
+    </footer>
+</body>
+</html>
